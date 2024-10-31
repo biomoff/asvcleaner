@@ -1,0 +1,12 @@
+name: asvcleaner
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - argparse
+  - biopython
+  - ca-certificates
+  - openssl
+  - blast
+  - pandas
