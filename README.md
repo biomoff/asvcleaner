@@ -17,6 +17,12 @@ You may need to specify the full path to the database you generated. E.g.
 
 `python3 path/to/asvcleaner.py -in <all.seqs.fasta> -db /path/to/database/<database-name>/<database-name>`
 
+*OPTIONAL: you can remove offending sequences from the ASV table and taxonomy tables by using*  
+`-t <sequence table>`  
+`--taxtable <taxonomy table>`
+`--speciestable <species table> `  
+*In all cases, ASVs must be in a column called 'ASV_ID'.*
+  
 # Dependencies
 
 asvcleaner depends on biopython, pandas, and argparse; these are provided in the supplied conda environments, along with blast.
